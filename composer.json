@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/spatie-laravel-activitylog",
+    "description": "Tyhp type definitions for spatie/laravel-activitylog 5.1.1.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "5.1.1",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/spatie-laravel-activitylog-impl": "~5.1.1.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/spatie-laravel-activitylog-impl"
+        }
+    }
+}
